@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="#f0f4f7">
+
+    <!-- CORREGIDO: Se agregaron layout_width y layout_height -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mi Termux Amigable"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        />
+
+    <!-- CORREGIDO: Se agregaron layout_width y layout_height -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ejecuta comandos sin escribir código."
+        android:textSize="16sp"
+        android:textColor="#666666"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        />
+
+    <!-- Botón 1: Instalar Paquetes -->
+    <Button
+        android:id="@+id/btn_install_node"
+        android:text="Verificar Instalación Node.js"
+        android:backgroundTint="#03A9F4"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"
+        />
+
+    <!-- Botón 2: Ejecutar Script -->
+    <Button
+        android:id="@+id/btn_run_script"
+        android:text="Ejecutar Script Demo"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#CCCCCC"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Botón 3: Ir al Terminal Clásico -->
+    <Button
+        android:id="@+id/btn_open_terminal"
+        android:text="Abrir Consola Avanzada"
+        android:backgroundTint="#FF9800"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textSize="16sp"
+        />
+
+</LinearLayout>

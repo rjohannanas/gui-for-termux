@@ -1,0 +1,2 @@
+[armeabi-v7a] Compile++ thumb: local-socket <= local-socket.cpp
+[armeabi-v7a] SharedLibrary  : liblocal-socket.so

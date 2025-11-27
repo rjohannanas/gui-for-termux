@@ -1,0 +1,26 @@
+                    Executable : C:\Users\User\AppData\Local\Android\Sdk\ndk\22.1.7171670\ndk-build.cmd
+arguments : 
+NDK_PROJECT_PATH=null
+APP_BUILD_SCRIPT=C:\Users\User\Desktop\repotermux\termux-app\terminal-emulator\src\main\jni\Android.mk
+APP_ABI=x86
+NDK_ALL_ABIS=x86
+NDK_DEBUG=1
+APP_PLATFORM=android-21
+NDK_OUT=C:/Users/User/Desktop/repotermux/termux-app/terminal-emulator/build/intermediates/ndkBuild/debug/obj
+NDK_LIBS_OUT=C:\Users\User\Desktop\repotermux\termux-app\terminal-emulator\build\intermediates\ndkBuild\debug\lib
+APP_CFLAGS+=-std=c11
+APP_CFLAGS+=-Wall
+APP_CFLAGS+=-Wextra
+APP_CFLAGS+=-Werror
+APP_CFLAGS+=-Os
+APP_CFLAGS+=-fno-stack-protector
+APP_CFLAGS+=-Wl,--gc-sections
+APP_SHORT_COMMANDS=false
+LOCAL_SHORT_COMMANDS=false
+-B
+-n
+jvmArgs : 
+
+
+                    Build command args: []
+                    Version: 1

@@ -1,0 +1,2 @@
+C:\Users\User\Desktop\repotermux\termux-app\termux-shared\src\main\cpp\Android.mk
+C:\Users\User\Desktop\repotermux\termux-app\termux-shared\src\main\cpp\Application.mk

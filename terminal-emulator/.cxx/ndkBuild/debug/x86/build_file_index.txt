@@ -1,0 +1,1 @@
+C:\Users\User\Desktop\repotermux\termux-app\terminal-emulator\src\main\jni\Android.mk
